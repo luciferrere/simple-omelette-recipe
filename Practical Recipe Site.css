@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 30px;
+    background: rgb(252, 252, 252);
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.outer{
+    background: peachpuff;
+    padding: 50px 20%;
+    margin: 20px 0;
+    width: 30%;
+}
+
+.within{
+    background: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Header Section */
+img{
+    width: 100%;
+}
+
+#paragraph{
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+
+/* Preparation Section */
+.psec{
+    padding: 10px;
+    background-color: peachpuff;
+}
+
+div#preparation{
+    color: rgb(228, 3, 59);
+    font-size: 10px;
+}
+
+div#firstlist{
+    line-height: 2.5;
+    font-size: 9px;
+}
+
+/* Ingredients Section */
+div#ingredients{
+    color: rgb(228, 3, 59);
+}
+
+.secondlist{
+    line-height: 2.5;
+    font-size: 9px;
+}
+
+/* Instruction Section */
+div.instructions{
+    color: rgb(228, 3, 59);
+    /* font-size: 25px; */
+}
+
+.thirdlist{
+    line-height: 2.5;
+    font-size: 9px;
+}
+
+/* Nutrition Section */
+div.nutrition h3{
+    color: rgb(228, 3, 59);
+}
+
+p#faith{
+    font-size: 9px;
+    line-height: 2.5;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(228, 3, 59);
+}
+
+/* Footer Section */
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 9px;
+    padding: 10px;
+    background-color: rgb(228, 3, 59);
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .outer{
+        width: 100%;
+        padding: 10px;
+    }
+}
